@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Propagation</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <h1>Bubble</h1>
+  <div class="bubble div1">
+    1
+    <div class="bubble div2">
+      2
+      <div class="bubble div3">
+        3
+      </div>
+    </div>
+  </div>
+
+  <h1>Capture</h1>
+  <div class="capture div1">
+    1
+    <div class="capture div2">
+      2
+      <div class="capture div3">
+        3
+      </div>
+    </div>
+  </div>
+
+  <h1>Bubble with Stop Propagation</h1>
+  <div class="bubble-stop div1">
+    1
+    <div class="bubble-stop div2">
+      2
+      <div class="bubble-stop div3">
+        3
+      </div>
+    </div>
+  </div>
+
+  <h1>Capture with Stop Propagation</h1>
+  <div class="capture-stop div1">
+    1
+    <div class="capture-stop div2">
+      2
+      <div class="capture-stop div3">
+        3
+      </div>
+    </div>
+  </div>
+
+  <h1>Once</h1>
+  <button class="once button1">I Will Activate Only Once!</button>
+  <button class="once button2">I Will Activate Only Twice!</button>
+  <button class="once button3">I Will Activate Only Thrice!</button>
+
+  <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+
+*, *:before, *:after { 
+  box-sizing: inherit; 
+}
+
+div {
+  width: 90%;
+  padding: 5%;
+  margin: 5%;
+}
+
+.div1 {
+  background: thistle;
+}
+
+.div2 {
+  background: mistyrose;
+}
+
+.div3 {
+  background: coral;
+}
